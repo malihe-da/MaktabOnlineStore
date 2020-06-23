@@ -9,11 +9,9 @@ import org.apache.log4j.Logger;
 import java.sql.Time;
 import java.time.LocalTime;
 import java.util.Date;
-import java.util.Scanner;
 
 import static model.dao.OperationLogDao.insertIntoOperationLog;
 import static model.dao.UserDao.insertToUser;
-import static view.StoreMain.*;
 
 
 public class UserService {
@@ -21,49 +19,78 @@ public class UserService {
 
     private static final Logger logger = LogManager.getLogger(UserService.class);
 
-    public static void userLogIn(int key) {
-        User user;
-        if (key == 1) {
-            user = register();
-        } else {
-            user = oldUserLogIn();
-        }
-
-        UserShopping.shopping(user);
-
-    }
-
-    public static User register(){
-        Scanner scn = new Scanner(System.in);
-        System.out.println("Please enter your user name:");
-        String userName = scn.nextLine();
-        System.out.println("Please enter password: ");
-        String passWord = scn.nextLine();
-
-        User user = new User(userName, passWord);
-
-        System.out.println("We are very happy that you have chosen our store to buy!");
-        System.out.println(user.getUserName() + " please enter your name: ");
-        user.setName(scn.nextLine());
-        System.out.println("Please enter your family: ");
-        user.setFamily(scn.next());
-        System.out.println("Please enter your age: ");
-        user.setAge(scn.nextInt());
-        System.out.println("Please enter your mobil number:");
-        user.setPhone(scn.next());
-        System.out.println("Please enter your email address:");
-        user.seteMail(scn.next());
-
-        user.setAddress(AddressService.getAddress());
-
+    public void newUser(User user){
         insertToUser(user);
 
         String massage = " registered ";
-        customerLogging(userName, massage);
+        customerLogging(user.getUserName(), massage);
 
-        logger.debug(userName + massage );
-        logger.info(userName + massage );
-        return user;
+        logger.debug(user.getUserName() + massage);
+        logger.info(user.getUserName() + massage);
+    }
+
+    public boolean isValidZipcode(String zipcode) {
+        if (zipcode.length() == 10) {
+            for (int i = 0; i < 10; i++) {
+                if (!Character.isDigit(zipcode.charAt(i)))
+                    return false;
+            }
+            return true;
+        }
+        return false;
+    }
+
+    public boolean isValidMailAddress(String mail) {
+        if (mail.length() > 6) {
+            if (!mail.contains("@")) {
+                return false;
+            }
+             if (!mail.endsWith(".com")) {
+                return false;
+            }
+
+            return true;
+        }
+        return false;
+    }
+
+    public boolean isValidPassword(String password) {
+        if (password.length() < 4)
+            return false;
+        boolean containDigit = false;
+        boolean containAlpha = false;
+
+        for (int i = 0; i < password.length(); i++) {
+            if (Character.isDigit(password.charAt(i)))
+                containDigit = true;
+            if (Character.isAlphabetic(password.charAt(i)))
+                containAlpha = true;
+            if (containAlpha && containDigit)
+                return true;
+        }
+        return false;
+    }
+
+    public boolean isValidMobile(String mobile) {
+
+        if (mobile.length() == 11) {
+            for (int i = 0; i < 11; i++) {
+                if (!Character.isDigit(mobile.charAt(i)))
+                    return false;
+            }
+            return true;
+        }
+        return false;
+    }
+    public boolean isValidAge(String age){
+       if(age.length()<3){
+           for (int i = 0; i < age.length(); i++) {
+               if (!Character.isDigit(age.charAt(i)))
+                   return false;
+           }
+           return true;
+       }
+        return false;
     }
 
     public static void customerLogging(String userName, String massage) {
@@ -74,37 +101,6 @@ public class UserService {
 
         insertIntoOperationLog(newLog);
     }
-
-
-
-    public static User oldUserLogIn() {
-        if (userList.isEmpty()) {
-            User user = register();
-            return user;
-        }
-
-        Scanner scn = new Scanner(System.in);
-        System.out.println("Please enter your user name:");
-        String userName = scn.nextLine();
-        System.out.println("Please enter password: ");
-        String passWord = scn.nextLine();
-
-        User user = new User(userName, passWord);
-
-        for (User us :
-                userList) {
-            if (us.getUserName().equals(userName)) {
-                if (us.getPassword().equals(passWord)) {
-                    return user;
-                }
-            }
-        }
-        System.out.println("You are not registered before. Sign up now please! ");
-
-        user = register();
-        return user;
-    }
-
 
 }
 

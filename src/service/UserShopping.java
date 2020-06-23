@@ -5,17 +5,19 @@ import model.entity.Store;
 import model.entity.User;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import view.UserView;
 
 import java.util.*;
 
 import static service.StoreService.printMenu;
+import static service.UserService.customerLogging;
 import static view.StoreMain.stock;
 
 
 public class UserShopping {
     private static final Logger logger = LogManager.getLogger(UserShopping.class);
 
-    public static void shopping(User user) {
+    public  void shopping(User user) {
         printMenu();
 
         shoppingProcess(user);
@@ -57,7 +59,7 @@ public class UserShopping {
         }
     }
 
-    private static void makePurchaseLog(User user) {
+    private  void makePurchaseLog(User user) {
         List<Integer> purchasesID = new ArrayList<>();
 
         for (Store purchase:
@@ -70,13 +72,13 @@ public class UserShopping {
         for (int i=0; i<purchasesID.size() ; i++){
             massage = massage +  ", id= " +  purchasesID.get(i) ;
         }
-        UserService.customerLogging(user.getUserName(), massage);
+        customerLogging(user.getUserName(), massage);
 
         logger.info(user.getUserName() + massage );
         logger.debug(user.getUserName() + massage );
     }
 
-    public static void shoppingProcess(User user) {
+    public  void shoppingProcess(User user) {
         Scanner scn = new Scanner(System.in);
 
         while (true) {

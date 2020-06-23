@@ -17,10 +17,11 @@ public class AdminService {
 
     private static final Logger logger = LogManager.getLogger(AdminService.class);
 
-    public static void adminController(){
-        Admin admin = checkAdmin();
-        if (admin == null)
-            return;
+    public  void adminController(Admin admin){
+
+
+        logger.debug("admin with user name: " + admin.getUserName()+ " entered");
+        logger.info("admin with user name: " + admin.getUserName()+ " entered");
 
         System.out.println("welcome " + admin.getUserName());
 
@@ -61,35 +62,10 @@ public class AdminService {
         }
     }
 
-    private static Admin checkAdmin() {
-        Scanner scn = new Scanner(System.in);
-        Admin tryAdmin = null;
-        boolean flag = false;
-        while (true) {
-            System.out.println("Please enter your user name:");
-            String userName = scn.nextLine();
-            for (Admin admin :
-                    admins) {
-                if (admin.getUserName().equals(userName)) {
-                    tryAdmin=admin;
-                    flag = true;
-                }
-            }
-            if (flag==false)
-                continue;
-
-            System.out.println(userName + ", please enter your passWord:");
-            String passWord = scn.nextLine();
-            if(tryAdmin.getPassword().equals(passWord))
-                break;
-        }
-        logger.debug("admin with user name: " + tryAdmin.getUserName()+ " entered");
-        logger.info("admin with user name: " + tryAdmin.getUserName()+ " entered");
-        return tryAdmin;
-    }
 
 
-    private static void adminGuid() {
+
+    private  void adminGuid() {
         System.out.println("Please choose one of the following operation," +
                 "\nShow the store stocks (enter 1)" +
                 "\nFilling the store (enter 2)" +
@@ -101,7 +77,7 @@ public class AdminService {
     }
 
 
-    public static void sortUsers(List<User> userList) {
+    public  void sortUsers(List<User> userList) {
         Comparator<User> myComparator = new Comparator<User>() {
             @Override
             public int compare(User o1, User o2) {

@@ -23,9 +23,6 @@ import static model.dao.UserDao.readUsersFromDataBase;
 
 public class StoreMain {
 
-    private static final Logger logger = LogManager.getLogger(StoreMain.class);
-   //public static SessionFactory sessionFactory = new Configuration().configure("view/hibernate.cfg.xml").buildSessionFactory();
-
     public static List<Store> stock = new ArrayList<>();
     public static List<User> userList = new ArrayList<>();
     public static List<Admin> admins = new ArrayList<>();
@@ -36,17 +33,20 @@ public class StoreMain {
         readUsersFromDataBase();
         readAdminsFromDataBase();
 
+        UserView userView = new UserView();
+        AdminView adminView = new AdminView();
+
         int inputKey = welcome();
 
         switch (inputKey) {
             case 1:
-                UserService.userLogIn(1);
+                userView.userLogIn(1);
                 break;
             case 2:
-                UserService.userLogIn(2);
+                userView.userLogIn(2);
                 break;
             case 3:
-                AdminService.adminController();
+                adminView.checkAdmin();
                 break;
         }
 
