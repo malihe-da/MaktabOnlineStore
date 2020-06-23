@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aba833a6-5b1a-4cac-bb3f-36aab4613f33" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hibernate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/src.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-store.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/dao/AdminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/dao/OperationLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/dao/SessionFactoryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/dao/StoreDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/entity/Basket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/entity/OperationLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/entity/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/StoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/UserShopping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/StoreMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/hibernate.cfg.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dix5eDvhlA4WBJwEOnNAoeTC9A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aba833a6-5b1a-4cac-bb3f-36aab4613f33" name="Default Changelist" comment="" />
+      <created>1592921532346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592921532346</updated>
+      <workItem from="1592921536596" duration="549000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="437" y="81" key="DetectedRootsChooserDialog" timestamp="1592921718113">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="437" y="81" key="DetectedRootsChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1592921718113" />
+    <state x="389" y="107" key="FileChooserDialogImpl" timestamp="1592921716161">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592921716161" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1592921724394">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592921724394" />
+  </component>
+</project>
