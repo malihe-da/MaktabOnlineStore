@@ -19,7 +19,7 @@ public class UserService {
 
     private static final Logger logger = LogManager.getLogger(UserService.class);
 
-    public void newUser(User user){
+    public void newUser(User user) {
         insertToUser(user);
 
         String massage = " registered ";
@@ -27,31 +27,6 @@ public class UserService {
 
         logger.debug(user.getUserName() + massage);
         logger.info(user.getUserName() + massage);
-    }
-
-    public boolean isValidZipcode(String zipcode) {
-        if (zipcode.length() == 10) {
-            for (int i = 0; i < 10; i++) {
-                if (!Character.isDigit(zipcode.charAt(i)))
-                    return false;
-            }
-            return true;
-        }
-        return false;
-    }
-
-    public boolean isValidMailAddress(String mail) {
-        if (mail.length() > 6) {
-            if (!mail.contains("@")) {
-                return false;
-            }
-             if (!mail.endsWith(".com")) {
-                return false;
-            }
-
-            return true;
-        }
-        return false;
     }
 
     public boolean isValidPassword(String password) {
@@ -82,16 +57,44 @@ public class UserService {
         }
         return false;
     }
-    public boolean isValidAge(String age){
-       if(age.length()<3){
-           for (int i = 0; i < age.length(); i++) {
-               if (!Character.isDigit(age.charAt(i)))
-                   return false;
-           }
-           return true;
-       }
+
+    public boolean isValidAge(String age) {
+        if (age.length() < 3) {
+            for (int i = 0; i < age.length(); i++) {
+                if (!Character.isDigit(age.charAt(i)))
+                    return false;
+            }
+            return true;
+        }
         return false;
     }
+
+
+    public boolean isValidMailAddress(String mail) {
+        if (mail.length() > 6) {
+            if (!mail.contains("@")) {
+                return false;
+            }
+            if (!mail.endsWith(".com")) {
+                return false;
+            }
+
+            return true;
+        }
+        return false;
+    }
+
+    public boolean isValidZipcode(String zipcode) {
+        if (zipcode.length() == 10) {
+            for (int i = 0; i < 10; i++) {
+                if (!Character.isDigit(zipcode.charAt(i)))
+                    return false;
+            }
+            return true;
+        }
+        return false;
+    }
+
 
     public static void customerLogging(String userName, String massage) {
         OperationLog newLog = OperationLog.OperationLogBuilder.aLog()

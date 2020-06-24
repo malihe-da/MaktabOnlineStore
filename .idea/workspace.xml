@@ -2,17 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aba833a6-5b1a-4cac-bb3f-36aab4613f33" name="Default Changelist" comment="refactor HW17, separate UserView and AdminView&#10;from package service">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/AdminView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/UserView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/model/dao/AdminDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/model/dao/OperationLogDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/model/dao/SessionFactoryConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/model/dao/StoreDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/model/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/model/entity/Address$AddressBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/model/entity/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/model/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/model/entity/Basket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/model/entity/OperationLog$OperationLogBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/model/entity/OperationLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/model/entity/Store.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/model/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/service/AdminService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/service/StoreService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/service/UserShopping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/view/AdminView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/view/StoreMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/view/UserView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/online-store/view/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ValidationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/online-store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/online-store.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/AddressService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/AdminService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/UserShopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/UserShopping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/StoreMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/StoreMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,28 +60,79 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/rasolifar/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Libarary/testng/testng-7.1.0.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15039062" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
-    <configuration name="StoreMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="view.StoreMain" />
+  <component name="RunManager" selected="TestNG.ValidationTest.testValidZipcode">
+    <configuration name="ValidationTest.isValidMobile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="online-store" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidationTest" />
+      <option name="METHOD_NAME" value="isValidMobile" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidationTest.isValidPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="online-store" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidationTest" />
+      <option name="METHOD_NAME" value="isValidPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidationTest.testValidAge" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="online-store" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidationTest" />
+      <option name="METHOD_NAME" value="testValidAge" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidationTest.testValidMailAddress" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="online-store" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidationTest" />
+      <option name="METHOD_NAME" value="testValidMailAddress" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidationTest.testValidZipcode" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="online-store" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidationTest" />
+      <option name="METHOD_NAME" value="testValidZipcode" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StoreMain" />
+        <item itemvalue="TestNG.ValidationTest.testValidZipcode" />
+        <item itemvalue="TestNG.ValidationTest.testValidMailAddress" />
+        <item itemvalue="TestNG.ValidationTest.testValidAge" />
+        <item itemvalue="TestNG.ValidationTest.isValidMobile" />
+        <item itemvalue="TestNG.ValidationTest.isValidPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -89,7 +158,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592921532346</updated>
-      <workItem from="1592921536596" duration="9789000" />
+      <workItem from="1592921536596" duration="9999000" />
+      <workItem from="1592981807412" duration="1915000" />
     </task>
     <servers />
   </component>
@@ -121,46 +191,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="81" key="DetectedRootsChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1592921718113" />
-    <state x="389" y="107" key="FileChooserDialogImpl" timestamp="1592924599535">
+    <state x="389" y="107" key="FileChooserDialogImpl" timestamp="1592982076108">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592924599535" />
-    <state width="1322" height="274" key="GridCell.Tab.0.bottom" timestamp="1592934558968">
+    <state x="389" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592982076108" />
+    <state width="1322" height="274" key="GridCell.Tab.0.bottom" timestamp="1592983781402">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="274" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592934558968" />
-    <state width="1322" height="274" key="GridCell.Tab.0.center" timestamp="1592934558968">
+    <state width="1322" height="274" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592983781402" />
+    <state width="1322" height="274" key="GridCell.Tab.0.center" timestamp="1592983781402">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="274" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592934558968" />
-    <state width="1322" height="274" key="GridCell.Tab.0.left" timestamp="1592934558968">
+    <state width="1322" height="274" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592983781402" />
+    <state width="1322" height="274" key="GridCell.Tab.0.left" timestamp="1592983781402">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="274" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592934558968" />
-    <state width="1322" height="274" key="GridCell.Tab.0.right" timestamp="1592934558968">
+    <state width="1322" height="274" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592983781402" />
+    <state width="1322" height="274" key="GridCell.Tab.0.right" timestamp="1592983781402">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="274" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592934558968" />
-    <state width="1322" height="257" key="GridCell.Tab.1.bottom" timestamp="1592930238107">
+    <state width="1322" height="274" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592983781402" />
+    <state width="1322" height="257" key="GridCell.Tab.1.bottom" timestamp="1592934918147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="257" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592930238107" />
-    <state width="1322" height="257" key="GridCell.Tab.1.center" timestamp="1592930238107">
+    <state width="1322" height="257" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592934918147" />
+    <state width="1322" height="257" key="GridCell.Tab.1.center" timestamp="1592934918147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="257" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592930238107" />
-    <state width="1322" height="257" key="GridCell.Tab.1.left" timestamp="1592930238107">
+    <state width="1322" height="257" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592934918147" />
+    <state width="1322" height="257" key="GridCell.Tab.1.left" timestamp="1592934918146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="257" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592930238107" />
-    <state width="1322" height="257" key="GridCell.Tab.1.right" timestamp="1592930238107">
+    <state width="1322" height="257" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592934918146" />
+    <state width="1322" height="257" key="GridCell.Tab.1.right" timestamp="1592934918147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="257" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592930238107" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1592923630867">
+    <state width="1322" height="257" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592934918147" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1592982085093">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592923630867" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592982085093" />
     <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1592922422778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

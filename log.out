@@ -1,0 +1,118 @@
+2020/06/23 20:32:55-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/23 20:32:58-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/23 20:32:59-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/23 20:32:59-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dg_maktab_store]
+2020/06/23 20:32:59-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/23 20:32:59-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/23 20:32:59-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 20 (min=1)
+2020/06/23 20:32:59-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/23 20:33:01-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@11de37d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/23 20:33:02-INFO-org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:(52):HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020/06/23 20:34:33-INFO-service.AdminService:(24):admin with user name: sahand entered
+2020/06/23 20:34:57-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/23 20:34:59-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/23 20:35:00-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/23 20:35:00-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dg_maktab_store]
+2020/06/23 20:35:00-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/23 20:35:00-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/23 20:35:00-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 20 (min=1)
+2020/06/23 20:35:00-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/23 20:35:01-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@11de37d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/23 20:35:01-INFO-org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:(52):HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020/06/23 20:35:12-INFO-service.AdminService:(24):admin with user name: sahand entered
+2020/06/23 20:40:23-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/23 20:40:26-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/23 20:40:27-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/23 20:40:27-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dg_maktab_store]
+2020/06/23 20:40:27-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/23 20:40:27-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/23 20:40:27-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 20 (min=1)
+2020/06/23 20:40:27-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/23 20:40:28-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@11de37d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/23 20:40:28-INFO-org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:(52):HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020/06/23 20:52:23-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/23 20:52:26-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/23 20:52:27-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/23 20:52:27-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dg_maktab_store]
+2020/06/23 20:52:27-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/23 20:52:27-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/23 20:52:27-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 20 (min=1)
+2020/06/23 20:52:27-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/23 20:52:28-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@11de37d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/23 20:52:28-INFO-org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:(52):HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020/06/23 20:55:01-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/23 20:55:05-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/23 20:55:06-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/23 20:55:06-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dg_maktab_store]
+2020/06/23 20:55:06-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/23 20:55:06-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/23 20:55:06-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 20 (min=1)
+2020/06/23 20:55:06-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/23 20:55:07-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@19ca607] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/23 20:55:08-INFO-org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:(52):HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020/06/23 20:56:12-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/23 20:56:15-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/23 20:56:15-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/23 20:56:15-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dg_maktab_store]
+2020/06/23 20:56:15-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/23 20:56:15-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/23 20:56:15-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 20 (min=1)
+2020/06/23 20:56:15-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/23 20:56:17-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@114b9f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/23 20:56:17-INFO-org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:(52):HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020/06/23 21:00:51-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/23 21:00:55-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/23 21:00:55-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/23 21:00:55-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dg_maktab_store]
+2020/06/23 21:00:55-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/23 21:00:55-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/23 21:00:55-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 20 (min=1)
+2020/06/23 21:00:56-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/23 21:00:57-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1a651c1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/23 21:00:57-INFO-org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:(52):HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020/06/23 21:03:12-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/23 21:03:13-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/23 21:03:14-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/23 21:03:14-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dg_maktab_store]
+2020/06/23 21:03:14-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/23 21:03:14-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/23 21:03:14-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 20 (min=1)
+2020/06/23 21:03:14-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/23 21:03:15-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@114b9f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/23 21:03:15-INFO-org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:(52):HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020/06/23 21:08:38-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/23 21:08:42-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/23 21:08:42-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/23 21:08:42-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dg_maktab_store]
+2020/06/23 21:08:42-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/23 21:08:42-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/23 21:08:43-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 20 (min=1)
+2020/06/23 21:08:43-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/23 21:08:43-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@11de37d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/23 21:08:44-INFO-org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:(52):HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020/06/23 21:09:50-INFO-service.UserService:(29):ali registered 
+2020/06/23 21:10:03-INFO-service.UserShopping:(77):ali made a purchase in  , id= 5, id= 2
+2020/06/23 22:04:27-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/23 22:04:28-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/23 22:04:29-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/23 22:04:29-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dg_maktab_store]
+2020/06/23 22:04:29-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/23 22:04:29-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/23 22:04:29-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 20 (min=1)
+2020/06/23 22:04:29-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/23 22:04:30-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@11de37d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/23 22:04:30-INFO-org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:(52):HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020/06/23 22:05:52-INFO-service.UserService:(29):ali registered 
+2020/06/23 22:06:35-INFO-service.UserShopping:(77):ali made a purchase in  , id= 5
+2020/06/23 22:17:25-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/23 22:17:27-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/23 22:17:28-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/23 22:17:28-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dg_maktab_store]
+2020/06/23 22:17:28-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/23 22:17:28-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/23 22:17:28-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 20 (min=1)
+2020/06/23 22:17:28-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/23 22:17:29-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@11de37d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/23 22:17:29-INFO-org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:(52):HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020/06/23 22:19:00-INFO-service.UserService:(29):aras registered 
+2020/06/23 22:19:13-INFO-service.UserShopping:(77):aras made a purchase in  , id= 9
