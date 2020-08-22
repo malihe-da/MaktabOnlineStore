@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <bean name="session-factory" class="ir.maktab.model.dao.SessionFactoryConfig"/>
+
+    <bean name="adminDao" class="ir.maktab.model.dao.AdminDao">
+        <property name="sessionFactory" ref="session-factory"/>
+    </bean>
+
+    <bean name="userDao" class="ir.maktab.model.dao.UserDao">
+        <property name="sessionFactory" ref="session-factory"/>
+    </bean>
+    <bean name="storeDao" class="ir.maktab.model.dao.StoreDao">
+        <property name="sessionFactory" ref="session-factory"/>
+    </bean>
+    <bean name="operationLogDao" class="ir.maktab.model.dao.OperationLogDao">
+        <property name="sessionFactory" ref="session-factory"/>
+    </bean>
+
+
+
+    <bean name="userService" class="ir.maktab.service.UserService">
+        <property name="userDao" ref="userDao"/>
+    </bean>
+
+    <bean name="adminService" class="ir.maktab.service.AdminService"/>
+    <bean name="storeService" class="ir.maktab.service.StoreService">
+        <property name="storeDao" ref="storeDao"/>
+    </bean>
+    <bean name="userShopping" class="ir.maktab.service.UserShopping">
+        <property name="storeService" ref="storeService"/>
+        <property name="userService" ref="userService"/>
+    </bean>
+
+
+    <bean name="userView" class="ir.maktab.view.UserView">
+        <property name="userService" ref="userService"/>
+        <property name="userShopping" ref="userShopping"/>
+    </bean>
+    <bean name="adminView" class="ir.maktab.view.AdminView">
+        <property name="adminService" ref="adminService"/>
+    </bean>
+
+</beans>
